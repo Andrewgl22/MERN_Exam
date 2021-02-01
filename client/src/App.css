@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+  margin:50px;
+}
+
+.pirate {
+  background-color:white;
+  border:2px solid black;
+  padding:10px;
+  margin-left:250px;
+  margin-right:250px;
+  margin-top:10px;
+  
+}
+
+.blueButton {
+  background-color:blue;
+  color:white;
+  height:30px;
+}
+
+.blueHeaderButton {
+  background-color:blue;
+  color:white;
+  height:30px;
+  
+}
+
+.redButton {
+  background-color:red;
+  color:white;
+  height:30px;
+}
+
+.header {
+  background-color:rgb(163, 73, 20);
+  border:2px solid black;
+  margin:0;
+  color:white;
+}
+
+.header > h1 {
+  display:inline-block;
+  margin-right:320px;
+  margin-left:380px;
+}
+
+input {
+  margin-bottom:80px;
+}
+
+.formLeft {
+  vertical-align:top;
+  display:inline-block;
+  margin-right: 80px;
+  margin-top:30px;
+}
+
+.formRight {
+  display:inline-block;
+  vertical-align:top;
+  margin-top:30px;
+}
+
+.formRight > input {
+  margin-top:30px;
+}
+
+.pirateInfo {
+  display:inline-block;
+  background-color:white;
+  border:2px solid black;
+  padding:20px;
+  padding-top:0;
+  margin-left:80px;
+}
+
+.pirateInfo > h1 {
+  margin:5px;
+}
+
+.pirate > h2 {
+  margin-top:5px;
+}
+
+.piratePhrase {
+  vertical-align: top;
+  display:inline-block;
+}
+
+
+.body {
+  background-color:orange;
+  height:500px;
+  padding-top:20px;
+  border:2px solid black;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
